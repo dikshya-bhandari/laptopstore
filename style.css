@@ -1,0 +1,128 @@
+body{
+    overflow-x:hidden;
+}
+
+
+.header{
+     background:url("banner-1036483_960_720.jpg")
+    no-repeat;
+    background-size:cover;
+    color:white;
+    padding:20px;
+    width:100%;
+
+    }
+ .header .profile  label{
+     margin:70px;
+    }
+    .header .profile image{
+        margin:10px;
+    }
+
+
+    .header .profile .border{
+        border:2px solid orange;
+        padding:5px;
+        background-color:orange;
+    }
+ .header .profile label span{
+     color:skyblue;
+ }
+ .navbar{
+     background:linear-gradient(to left, grey 50%, skyblue 20%);
+     padding:5px;
+     width:100%;
+     position:sticky;
+     top:0px;
+ }
+ .navbar ul li{
+     display:inline;
+    text-decoration:none;
+        /* position:sticky;
+        top:0px; */
+
+ }
+ .navbar ul li a{
+     text-decoration: none;
+     margin:90px;
+     font-size:20px;
+      }
+      .navbar ul li a:hover{
+          background-color:white;
+          padding:8px;
+      }
+
+      .message{
+          position:fixed;
+          margin-left:1230px;
+          font-size:60px;
+          color:rgb(10, 10, 66);
+          bottom:20px;
+      }
+
+
+
+
+
+      .main{
+          background:url("images/pakata-goh-RDolnHtjVCY-unsplash.jpg")
+          no-repeat center center fixed;
+          background-size:cover;
+          height:100vh;
+          text-align:center;
+          
+          
+          
+         
+          
+           }
+             .main .title{
+               font-size:50px;
+               font-family:cursive;
+               color:orange; 
+               top:50%;
+               left:50%;
+           }
+           .main span{
+               color:orange;
+               font-size:30px;
+            
+           }
+
+           .row{
+            display:inline-flex;
+        padding:8px;
+        }
+        .row .col-md-4{
+          padding:30px;
+          
+          margin:20px;
+          height:350px;
+          
+        
+        }
+        .row .col-md-4:hover{
+            background-color:rgb(241, 237, 237);
+            font-size:20px;
+        }
+        .row .col-md-4 .footer{
+            text-align:center;
+            
+        }
+        .row .col-md-4 .footer button{
+            background-color:red;
+            border-radius:5px;
+            color:white;
+            border:2px solid black;
+            padding:4px;
+        }
+
+
+
+
+
+
+
+
+
+
